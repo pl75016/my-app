@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
-          heroku_api_key: ${{d750d08a-8491-457a-aef1-f28e22623fd9}}
+          heroku_api_key: ${{secrets.d750d08a-8491-457a-aef1-f28e22623fd9}}
           heroku_app_name: "mon-app-pl" #Must be unique in Heroku
           heroku_email: "pierrelouisbarbier@gmail.com"
